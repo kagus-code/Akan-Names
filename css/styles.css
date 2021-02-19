@@ -49,4 +49,7 @@ footer a {
   .carousel-indicators {
     display: none;
   }
+  #nav-main {
+    background-color: white;
+  }
 }
