@@ -6,7 +6,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 #nav-main {
-  background-color: gray;
+  background: linear-gradient(to bottom, #4981b3 0%, #ac2615 100%);
 }
 .navbar {
   padding: 0.1rem;
