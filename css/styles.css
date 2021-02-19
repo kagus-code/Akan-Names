@@ -36,3 +36,17 @@ footer a {
   display: inline-block;
   padding: 0px 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .carousel-caption {
+    top: 45%;
+  }
+
+  .carousel-caption .btn {
+    padding: 2px 8px;
+    float: initial;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+}
