@@ -34,7 +34,7 @@
         <div class="col-lg-6">
           <div id="ui">
             <h1 style="color: #fff">Enter your details here....</h1>
-            <form action="#" class="form-group">
+            <form action="#" class="form-group" id="myForm">
               <div class="row">
                 <div class="col-lg-6">
                   <label>Date of Birth:</label>
@@ -43,23 +43,31 @@
               </div>
               <br />
               <label>Select Gender</label> <br />
-              <input type="radio" id="male" name="gender" value="male" />
-              <label for="male">Male</label>
-              <input type="radio" id="female" name="gender" value="female" />
-              <label for="female">Female</label>
+
+              <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
               <br />
-              <input
-                type="submit"
+              <button
+                onclick="myFunction()"
+                type="button"
                 id="submit"
-                value="submit"
+                value="Submit"
                 name="submit"
                 class="btn btn-primary btn-block btn-lg"
-              />
+              >
+                SUBMIT
+              </button>
             </form>
           </div>
         </div>
         <div class="col-lg-3"></div>
       </div>
+    </div>
+    <div class="continer" style="color: white">
+      <p id="demo"></p>
+      <p id="demo2"></p>
     </div>
 
     <script
@@ -77,6 +85,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
