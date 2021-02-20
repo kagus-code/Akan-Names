@@ -14,7 +14,7 @@ function myFunction() {
  var calc =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd) % 7;
  var calD =Math.trunc(calc);
 
-
+/*male selectios*/
  if (calD===0 && g==="male"){
   document.getElementById("demo").innerHTML =maleArray[0] ;
  } else if (calD===1 && g==='male'){
@@ -30,7 +30,7 @@ function myFunction() {
  } else if (calD===6 && g==='male'){
   document.getElementById("demo").innerHTML =maleArray[6] ;
  }  
-
+ /*Female selectios*/
 else if (calD===0 && g==='female'){
   document.getElementById("demo").innerHTML =femaleArray[0] ;
  } else if (calD===1 && g==='female'){
@@ -46,10 +46,6 @@ else if (calD===0 && g==='female'){
  } else if (calD===6 && g==='female'){
   document.getElementById("demo").innerHTML =femaleArray[6] ;
  }  
- 
-
- 
- 
  else  {
   document.getElementById("demo").innerHTML ='input valid details' ;
  }
