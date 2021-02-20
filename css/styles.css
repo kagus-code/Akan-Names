@@ -7,7 +7,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 #column-section {
-  background: linear-gradient(to bottom, #4981b3 0%, aqua 100%);
+  color: white;
 }
 
 #nav-main {
@@ -41,6 +41,24 @@ footer a {
   color: inherit;
   display: inline-block;
   padding: 0px 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:first-child {
+  background-color: #dddddd;
+  color: black;
 }
 
 @media screen and (max-width: 800px) {
