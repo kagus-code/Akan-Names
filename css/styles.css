@@ -6,10 +6,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 #nav-main {
-  background: linear-gradient(to bottom, #4981b3 0%, #ac2615 100%);
+  background: linear-gradient(to bottom, #4981b3 0%, aqua 100%);
 }
 .navbar {
   padding: 0.1rem;
+  padding-top: 0%;
+  padding-left: 0%;
 }
 .navbar-li {
   padding-right: 20px;
@@ -47,8 +49,5 @@ footer a {
   }
   .carousel-indicators {
     display: none;
-  }
-  #nav-main {
-    background-color: white;
   }
 }
