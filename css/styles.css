@@ -62,9 +62,13 @@ tr:first-child {
 }
 #button2 {
   position: absolute;
-  bottom: 50%;
+  top: 80%;
 }
 @media screen and (max-width: 800px) {
+  #button2 {
+    display: none;
+  }
+
   .carousel-caption {
     top: 45%;
   }

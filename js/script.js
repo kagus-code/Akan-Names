@@ -47,7 +47,8 @@ else if (calD===0 && g==='female'){
   document.getElementById("demo").innerHTML =femaleArray[6] ;
  }  
  else  {
-  document.getElementById("demo").innerHTML ='input valid details' ;
+   alert('INPUT VALID DETAILS')
+  document.getElementById("demo").innerHTML ='_ _ _ _ _ _ _ _ ' ;
  }
  
 
