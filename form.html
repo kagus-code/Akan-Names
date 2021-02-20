@@ -4,20 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form</title>
+    <title>find out here</title>
     <link
       rel="stylesheet"
       href="css/bootstrap.css"
       type="text/css"
       media="all"
     />
+    <style>
+      body {
+        background-image: url(images/formbackground.jpg);
+        background-size: cover;
+      }
+      #ui {
+        background-color: #333;
+        padding: 30px;
+        margin-top: 70px;
+        opacity: 0.9;
+      }
+      #ui label {
+        color: #fff;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-log-3"></div>
-        <div class="col-log-6"></div>
-        <div class="col-log-3"></div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div id="ui">
+            <h1 style="color: #fff">Enter your details here....</h1>
+            <form action="#" class="form-group">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label>Date of Birth:</label>
+                  <input type="date" id="DOB" name="date" />
+                </div>
+              </div>
+              <br />
+              <label>Select Gender</label> <br />
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+              <br />
+              <input
+                type="submit"
+                id="submit"
+                value="submit"
+                name="submit"
+                class="btn btn-primary btn-block btn-lg"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-3"></div>
       </div>
     </div>
 
