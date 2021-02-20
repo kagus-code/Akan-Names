@@ -60,7 +60,10 @@ tr:first-child {
   background-color: #dddddd;
   color: black;
 }
-
+#button2 {
+  position: absolute;
+  bottom: 50%;
+}
 @media screen and (max-width: 800px) {
   .carousel-caption {
     top: 45%;
