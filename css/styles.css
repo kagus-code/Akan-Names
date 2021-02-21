@@ -55,7 +55,6 @@ th {
   text-align: left;
   padding: 8px;
 }
-
 tr:first-child {
   background-color: #dddddd;
   color: black;
@@ -68,7 +67,11 @@ tr:first-child {
   #button2 {
     display: none;
   }
-
+  #african-caption {
+    top: 10%;
+    color: yellow;
+    opacity: 0.5;
+  }
   .carousel-caption {
     top: 45%;
   }

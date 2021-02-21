@@ -2,11 +2,10 @@
  var maleArray = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
  var femaleArray =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-
+/* x is for date of birth g is for gender*/
 function myFunction() {
   var x = document.getElementById("DOB").value;
   var g = document.getElementById("gender").value;
- var y =x.toString(x);
  var cc = parseInt( x.charAt(0) + x.charAt(1)) ;
  var yy = parseInt( x.charAt(2) + x.charAt(3)) ;
  var mm = parseInt( x.charAt(5) + x.charAt(6)) ;
@@ -52,35 +51,8 @@ else if (calD===0 && g==='female'){
  }
  
 
- 
-
- 
- /*document.getElementById("demo2").innerHTML = g;*/
-
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-/*var calculate = function(CC, YY, MM, DD){
-  return  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) 
-
-  }
-          
-  var CC= parseInt(prompt('Enter a CC '));
-  var YY= parseInt(prompt('Enter YY '));
-  var MM= parseInt(prompt('Enter MM '));
-  var DD= parseInt(prompt('Enter DD '));
-
-
-var result = calculate(CC, YY, MM, DD);
-  alert(result);*/

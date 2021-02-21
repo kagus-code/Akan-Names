@@ -17,6 +17,26 @@ depending on your gender it will show you your Akan name
 - Open project on VSCode
 - Start the project on live server
 
+## Behaviour Driven Development(BDD)
+
+Feature: Display Akan name
+As a user, I want to enter my date of birth and gender and
+see what my akan name is.
+
+Scenario Outline: when user enters their details
+-Given: a web browser is on the akan name page
+-When: the user enters their DOB and selects their gender
+-Then: results should be a display of their akan name with a
+message like "your akan name is Kwame"
+-And: if the user inputs invalid details they sould see
+an error message
+
+      Examples:
+        DOB        GENDER          RESULT
+      | 12/2/1990  | Male        | Kwame        |
+      | 5/8/1995   | Female      | Akun         |
+      | 6/10/2000  |  n/a|       | invalid input|
+
 ## Technologies Used
 
 - JavaScript
