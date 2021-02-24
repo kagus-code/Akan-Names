@@ -36,7 +36,7 @@ if (yy >= 1700 && yy <= 1751) {
  
  var calD = h;
 
-/*male selectios*/
+/*male selections*/
  if (calD===0 && g==="male"){
   document.getElementById("demo").innerHTML =maleArray[0] ;
  } else if (calD===1 && g==='male'){
@@ -52,7 +52,7 @@ if (yy >= 1700 && yy <= 1751) {
  } else if (calD===6 && g==='male'){
   document.getElementById("demo").innerHTML =maleArray[6] ;
  }  
- /*Female selectios*/
+ /*Female selections*/
 else if (calD===0 && g==='female'){
   document.getElementById("demo").innerHTML =femaleArray[0] ;
  } else if (calD===1 && g==='female'){
